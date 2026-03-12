@@ -13,7 +13,7 @@ for (const feedbackForm of feedbackForms) {
     const phone = phoneInput.value.trim();
     const message = messageInput.value.trim();
     const text = [
-      'Здравствуйте, интересует ремонт кровли.',
+      'Здравствуйте, интересуют строительные работы.',
       name ? `Имя: ${name}` : '',
       phone ? `Телефон: ${phone}` : '',
       message ? `Сообщение: ${message}` : ''
